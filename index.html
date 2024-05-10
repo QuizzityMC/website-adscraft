@@ -64,7 +64,31 @@
     <video src="path/to/video2.mp4" controls></video>
 
     <script>
-        // Your JavaScript code goes here
+        // Button Click Event
+document.getElementById('button1').addEventListener('click', function() {
+    // Code to execute when button1 is clicked
+    // Add your desired functionality here
+});
+
+// Form Submit Event
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Code to execute when form is submitted
+    // Add your desired functionality here
+
+    // Example: Get form values
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+
+    // Example: Display form values
+    console.log('First Name:', firstName);
+    console.log('Last Name:', lastName);
+});
+
+// Other Important Parts...
+// Add your additional JavaScript code here to handle other functionality of the ADSCRAFT website
+
     </script>
 </body>
 </html>
